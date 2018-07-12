@@ -1,0 +1,367 @@
+﻿<?xml version="1.0"?>
+<BattleCatalog xmlns="http://www.somewhere.org/BattleCatalog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.somewhere.org/BattleCatalog BattleCatalog.xsd">
+    <Battle>
+        <Name>Руско-турска война</Name>
+        <StartDate>1877-04-24</StartDate>
+        <EndDate>1878-03-23</EndDate>
+        <Place>Източни Балкани(дн. България), Кавказ</Place>
+        <Era>Ново време</Era>
+        <Reason>Въстанието в Босна и Херцеговина (1875), Априлското въстание в България (1876) и Сръбско-турската война (1876)</Reason>
+        <ConflictType>Война</ConflictType>
+        <Attackers TotalArmy="440000" TotalLosses="24000">
+            <Attacker>
+                <Name>Русия</Name>
+                <Army>185000 в Румъния и 100000 в Кавказ</Army>
+                <Losses>15567 убити, 56652 ранени</Losses>
+                <Commanders>
+                    <Commander Name="император Александър II"/>
+                    <Commander Name="княз Николай Николаевич"/>
+                    <Commander Name="княз Михаил Николаевич"/>
+                </Commanders>
+            </Attacker>
+            <Attacker>
+                <Name>румънци</Name>
+                <Army>60000</Army>
+                <Losses>7618 убити, ранени, починали и изчезнали</Losses>
+                <Commanders>
+                    <Commander Name="крал Карол I"/>
+                </Commanders>
+            </Attacker>
+            <Attacker>
+                <Name>сърби</Name>
+                <Army>56000</Army>
+                <Losses>718 убити, 1 534 починали от рани и болести, 2 999 ранени</Losses>
+                <Commanders>
+                    <Commander Name="крал Милан I"/>
+                </Commanders>
+            </Attacker>
+            <Attacker>
+                <Name>черногорци</Name>
+                <Army>30000</Army>
+                <Losses>Неизвестен брой</Losses>
+                <Commanders>
+                    <Commander Name="княз Никола I"/>
+                </Commanders>
+            </Attacker>
+            <Attacker>
+                <Name>българи</Name>
+                <Army>7 500 в Българското опълчение и значителен брой доброволци</Army>
+                <Losses>1 347 души от Българското опълчение, значителни загуби сред цивилното население</Losses>
+            </Attacker>
+        </Attackers>
+        <Defenders TotalArmy="281000" TotalLosses="120000 убити">
+            <Defender>
+                <Name>Османска империя(дн. Турция)</Name>
+                <Army>281000 на Балканския и на Кавказкия фронт</Army>
+                <Losses>229 838 убити, починали, изчезнали и ранени</Losses>
+                <Commanders>
+                    <Commander Name="султан Абдул Хамид II"/>
+                    <Commander Name="Абдул Керим Надир паша"/>
+                    <Commander Name="Ахмед Мухтар паша"/>
+                </Commanders>
+            </Defender>
+        </Defenders>
+        <Result>Победа за Руската империя. Териториална подялба на османски владения между Великите сили. Карс и Южна Бесарабия стават част от Руската империя. Възстановяване на българската държавност чрез създаване на васално Княжество България. Признаване на независимостта на васалните дотогава княжества Румъния, Сърбия и Черна гора.</Result>
+    </Battle>
+    <Battle>
+        <Name>Битката при Адрианопол(Одрин)</Name>
+        <StartDate>1205-04-14</StartDate>
+        <EndDate>1205-04-14</EndDate>
+        <Place>Адрианопол(Одрин)</Place>
+        <Era>Средновековие</Era>
+        <Reason>Латинците от IV-ия кръстоносен поход след установяването си в Константинопол предявяват териториални претенции към българските земи и започват да подлагат на грабеж българските селища</Reason>
+        <ConflictType>Битка</ConflictType>
+        <Attackers TotalArmy="около 54000" TotalLosses="Неизвестен брой">
+            <Attacker>
+                <Name>Второ българско царство(дн. България)</Name>
+                <Army>Около 40 хиляди българи(пехота, стрелци и конница) и около 14 хиляди кумани(лека конница и конни стрелци)</Army>
+                <Losses>Неизвестен брой</Losses>
+                <Commanders>
+                    <Commander Name="цар Калоян"/>
+                </Commanders>
+            </Attacker>
+        </Attackers>
+        <Defenders TotalArmy="между 2 и 4 хиляди души" TotalLosses="220-280 рицари и неизвестен брой войници">
+            <Defender>
+                <Name>Латинска империя</Name>
+                <Losses>Неизвестен брой войници</Losses>
+                <Commanders>
+                    <Commander Name="император Балдуин I"/>
+                </Commanders>
+            </Defender>
+            <Defender>
+                <Name>Венецианска република</Name>
+                <Losses>Неизвестен брой войници</Losses>
+                <Commanders>
+                    <Commander Name="граф Луи дьо Блоа"/>
+                    <Commander Name="дож Енрико Дандоло"/>
+                </Commanders>
+            </Defender>
+        </Defenders>
+        <Result>Победа за българите</Result>
+    </Battle>
+    <Battle>
+        <Name>Десант в Нормандия</Name>
+        <StartDate>1944-06-06</StartDate>
+        <EndDate>1944-07-15</EndDate>
+        <Place>Нормандия, Северозападна Франция</Place>
+        <Era>Съвременна епоха</Era>
+        <Reason>Отваряне на втори фронт в Европа и освобождаване на Франция</Reason>
+        <ConflictType>Битка</ConflictType>
+        
+        <Attackers TotalArmy="1332000" TotalLosses="120000">
+            <Attacker>
+                <Name>САЩ</Name>
+                <Army>Неизвестен брой</Army>
+                <Losses>Неизвестен брой</Losses>
+                <Commanders>
+                    <Commander Name="Дуайт Айзенхауер"/>
+                    <Commander Name="Омар Брадли"/>
+                </Commanders>
+            </Attacker>
+            <Attacker>
+                <Name>Великобритания</Name>
+                <Army>Неизвестен брой</Army>
+                <Losses>Неизвестен брой</Losses>
+                <Commanders>
+                    <Commander Name="Артър Тедър"/>
+                    <Commander Name="Бернард Монтгомъри"/>
+                    <Commander Name="Трафърд Лей-Малори"/>
+                    <Commander Name="Бертрам Рамзи"/>
+                    <Commander Name="Майлс Дъмпси"/>
+                </Commanders>
+            </Attacker>
+        </Attackers>
+            
+        <Defenders TotalArmy="380000" TotalLosses="113059">
+            <Defender>
+                <Name>Нацистка Германия</Name>
+                <Army>380000</Army>
+                <Losses>113059</Losses>
+                <Commanders>
+                    <Commander Name="Герд фон Рундщед"/>
+                    <Commander Name="Ъруин Ромел"/>
+                    <Commander Name="Фридрих Долман"/>
+                    <Commander Name="Лео Гейр фон Швепенбърг"/>
+                </Commanders>
+            </Defender>
+        </Defenders>
+            
+        <Result>Успешно приземяване на съюзническите войски и изтласкване на немската армия в посока Париж</Result>
+    </Battle>
+    <Battle>
+        <Name>Битка при Сталинград</Name>
+        <StartDate>1942-07-17</StartDate>
+        <EndDate>1943-02-02</EndDate>
+        <Place>Сталинград( днес Волгоград), Русия</Place>
+        <Era>Съвременна епоха</Era>
+        <Reason>Превземане на петролните залежи край Каспийско море и към стратегически важния център Сталинград</Reason>
+        <ConflictType>Битка</ConflictType>
+        
+        <Attackers TotalArmy="1 011 000 войници, 675 танка, 10 290 оръдия, 1216 самолета" TotalLosses="627 899 войници, 1500 танка, 6000 оръдия, 900 самолета">
+            <Attacker>
+                <Name>Германия</Name>
+                <Army>400 000</Army>
+                <Losses>299 899</Losses>
+                <Commanders>
+                    <Commander Name="Адолф Хитлер"/>
+                    <Commander Name="Фридрих фон Паулус"/>
+                    <Commander Name="Ерик фон Манщайн"/>
+                    <Commander Name="Вон Рихтофен"/>
+                </Commanders>
+            </Attacker>
+            <Attacker>
+                <Name>Италия</Name>
+                <Army>220 000</Army>
+                <Losses>114 000</Losses>
+                <Commanders>
+                    <Commander Name="Итало Гарибалди"/>
+                </Commanders>
+            </Attacker>
+            <Attacker>
+                <Name>Румъния</Name>
+                <Army>144 000</Army>
+                <Losses>109 000</Losses>
+                <Commanders>
+                    <Commander Name="Петре Димитреску"/>
+                    <Commander Name="К. Константинеску"/>
+                </Commanders>
+            </Attacker>
+            <Attacker>
+                <Name>Унгария</Name>
+                <Army>200 000</Army>
+                <Losses>105 000</Losses>
+                <Commanders>
+                    <Commander Name="Густав Яни"/>
+                </Commanders>
+            </Attacker>
+            <Attacker>
+                <Name>Хърватия</Name>
+                <Army>Неизвестен брой</Army>
+                <Losses>Неизвестен брой</Losses>
+            </Attacker>
+        </Attackers>
+        
+        <Defenders TotalArmy="1 143 000 войници, 894 танка, 13 451 оръдия, 1115 самолета" TotalLosses="">
+            <Defender>
+                <Name>СССР</Name>
+                <Army>1 143 000 войници, 894 танка, 13 451 оръдия, 1115 самолета</Army>
+                <Losses>1 129 619 войници, 4341 танка, 15 728 оръдия, 2769 самолета</Losses>
+                <Commanders>
+                    <Commander Name="Георги Жуков"/>
+                    <Commander Name="Николай Воронов"/>
+                    <Commander Name="А. М. Василевски"/>
+                    <Commander Name="Андрей Йероменко"/>
+                    <Commander Name="Никита Хрусчов"/>
+                    <Commander Name="К. К. Рокосовски"/>
+                    <Commander Name="Николай Ватутин"/>
+                    <Commander Name="Василий Чуков"/>
+                </Commanders>
+            </Defender>
+        </Defenders>
+        
+        <Result>Категорична победа за СССР, унищожаване на немската 6-та армия</Result>
+    </Battle>
+    <Battle>
+        <Name>Полско- Османска война(1620- 1621)</Name>
+        <StartDate>1620-01-01</StartDate>
+        <EndDate>1621-01-01</EndDate>
+        <Place>Молдова</Place>
+        <Era>Ренесанс</Era>
+        <Reason>Влияние над Молдова</Reason>
+        <ConflictType>Война</ConflictType>
+        
+        <Attackers TotalArmy="100 000- 250 000" TotalLosses="40 000">
+            <Attacker>
+                <Name>Османска империя</Name>
+                <Army>100 000- 250 000</Army>
+                <Losses>40 000</Losses>
+                <Commanders>
+                    <Commander Name="Султан Осман II"/>
+                </Commanders>
+            </Attacker>
+        </Attackers>
+        
+        <Defenders TotalArmy="45 000- 60 000" TotalLosses="14 000">
+            <Defender>
+                <Name>Полско- литовски съюз</Name>
+                <Army>45 000- 60 000</Army>
+                <Losses>14 000</Losses>
+                <Commanders>
+                    <Commander Name="Станислав Цолкиевски"/>
+                    <Commander Name="Йан Карол Чодкиевиц"/>
+                    <Commander Name="принц Владислав Васа"/>
+                </Commanders>
+            </Defender>
+        </Defenders>
+            
+        <Result>Нерешителен изход от войната, прекратяване на полското влияние върху Молдова</Result>
+    </Battle>
+    <Battle>
+        <Name>Втора световна война</Name>
+        <StartDate>1939-09-01</StartDate>
+        <EndDate>1945-09-02</EndDate>
+        <Place>Европа, Северна Африка, Азия, Тихия океан, Япония</Place>
+        <Era>Съвременна епоха</Era>
+        <Reason>Не може да се знае със сигурност (събитието е твърде скорошно)</Reason>
+        <ConflictType>Война</ConflictType>
+        <!-- поради липса на добре структурирана информация, ще си служа с фигури, изскочили от главата ми-->
+        <Attackers TotalArmy="неизвестно" TotalLosses="8 000 000 военни, 4 000 000 цивилни">
+            <Attacker>
+                <Name>Нацистка Германия</Name>
+                <Army>18 500 000</Army>
+                <Losses>11 500 000</Losses>
+                <Commanders>
+                    <Commander Name="Адолф Хитлер"/>
+                </Commanders>
+            </Attacker>
+            <Attacker>
+                <Name>Фашистка Италия</Name>
+                <Army>3 000 000</Army>
+                <Losses>1 500 000</Losses>
+                <Commanders>
+                    <Commander Name="Бенито Мусолини"/>
+                </Commanders>
+            </Attacker>
+            <Attacker>
+                <Name>Имперска Япония</Name>
+                <Army>1 000 000</Army>
+                <Losses>500 000</Losses>
+                <Commanders>
+                    <Commander Name="император Хирохито"/>
+                </Commanders>
+            </Attacker>
+        </Attackers>
+            
+        <Defenders TotalArmy="40 000 000" TotalLosses="16 000 000 военни, 45 000 000 цивилни">
+            <Defender>
+                <Name>СССР</Name>
+                <Army>25 000 000</Army>
+                <Losses>24 999 999</Losses>
+                <Commanders>
+                    <Commander Name="Йосиф Сталин"/>
+                </Commanders>
+            </Defender>
+            <Defender>
+                <Name>САЩ</Name>
+                <Army>10 000 000</Army>
+                <Losses>271</Losses>
+                <Commanders>
+                    <Commander Name="Франклин Рузвелт"/>
+                    <Commander Name="Хари Труман"/>
+                </Commanders>
+            </Defender>
+            <Defender>
+                <Name>Великобритания</Name>
+                <Army>2 000 000</Army>
+                <Losses>400 000</Losses>
+                <Commanders>
+                    <Commander Name="Уинстън Чърчил"/>
+                </Commanders>
+            </Defender>
+            <Defender>
+                <Name>Китай</Name>
+                <Army>2 000 000 000 000 000</Army>
+                <Losses>400 000 000 000</Losses>
+                <Commanders>
+                    <Commander Name="Чанг Кай- Шек"/>
+                </Commanders>
+            </Defender>
+        </Defenders>
+        
+        <Result>Съюзническа победа, Колапс на Германия и Япония, създаване на ООН, начало на Студената война</Result>
+    </Battle>
+    <Battle>
+        <Name>Битка при Върбишкия проход</Name>
+        <StartDate>0811-07-26</StartDate>
+        <EndDate>0811-07-26</EndDate>
+        <Place>Върбишки проход, Стара планина, България</Place>
+        <Era>Средновековие</Era>
+        <Reason>Опожаряването на Плиска</Reason>
+        <ConflictType>Битка</ConflictType>
+        
+        <Attackers TotalArmy="50 000- 65 000" TotalLosses="малки">
+            <Attacker>
+                <Name>Първа българска държава</Name>
+                <Army>50 000- 65 000</Army>
+                <Losses>малки</Losses>
+                <Commanders>
+                    <Commander Name="хан Крум"/>
+                </Commanders>
+            </Attacker>
+        </Attackers>
+        
+        <Defenders TotalArmy="60 000- 80 000" TotalLosses="почти цялата войска, вкл. императора">
+            <Defender>
+                <Name>Византийска империя</Name>
+                <Army>60 000- 80 000</Army>
+                <Losses>почти цялата войска, вкл. императора</Losses>
+                <Commanders>
+                    <Commander Name="Никифор I Геник"/>
+                </Commanders>
+            </Defender>
+        </Defenders>
+        
+        <Result>Съкрушителна победа за българите, византийският император е убит</Result>
+    </Battle>
+</BattleCatalog>
