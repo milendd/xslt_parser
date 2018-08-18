@@ -19,3 +19,13 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/xslt_parser](https://hexdocs.pm/xslt_parser).
 
+## Usage
+Easy transform XML using XSLT 2.0(or 1.0) stylesheet
+```
+{:ok, xml} = XsltParser.transform('bib.xml', 'bib.xslt')
+```
+
+Or create file with the transformed XML
+```
+XsltParser.transform('bib.xml', 'bib.xslt', 'bib_result.xml')
+```
