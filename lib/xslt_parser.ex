@@ -3,16 +3,14 @@ defmodule XsltParser do
   Documentation for XsltParser.
   """
 
-  @doc """
-  Hello world.
+  defstruct ALLOWED_VERSIONS: ["1.0", "1.1", "2.0"]
 
-  ## Examples
+  def transform(xml_file, xslt_file) do
+    :ok = validate(xml_file, xslt_file)
+  end
 
-      iex> XsltParser.hello
-      :world
-
-  """
-  def hello do
-    :world
+  defp validate(_xml_file, _xslt_file) do
+    # TODO:
+    :ok
   end
 end

@@ -3,15 +3,8 @@ defmodule XmlParser do
   Documentation for XmlParser.
   """
 
-  # using erlang records
-  # http://davekuhlman.org/elixir-xml-processing.html
-
   require Record
-  xmerl_lib = "xmerl/include/xmerl.hrl"
-
-  Record.defrecord(:xmlText, Record.extract(:xmlText, from_lib: xmerl_lib))
-  Record.defrecord(:xmlElement, Record.extract(:xmlElement, from_lib: xmerl_lib))
-  Record.defrecord(:xmlAttribute, Record.extract(:xmlAttribute, from_lib: xmerl_lib))
+  require RecordHelper
 
   def parse_string(xml) when is_binary(xml) do
     # quiet - behave quietly and not output any information to standard output
@@ -31,9 +24,9 @@ defmodule XmlParser do
 
   defp text([]), do: nil
   defp text([item]), do: text(item)
-  defp text(xmlElement(content: content)), do: text(content)
-  defp text(xmlAttribute(value: value)), do: List.to_string(value)
-  defp text(xmlText(value: value)), do: List.to_string(value)
+  defp text(RecordHelper.xmlElement(content: content)), do: text(content)
+  defp text(RecordHelper.xmlAttribute(value: value)), do: List.to_string(value)
+  defp text(RecordHelper.xmlText(value: value)), do: List.to_string(value)
 
   defp text(list) when is_list(list) do
     is_parsable = Enum.all?(list, fn x -> parsable?(x) end)

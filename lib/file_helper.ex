@@ -1,4 +1,8 @@
 defmodule FileHelper do
+  @moduledoc """
+  Documentation for FileHelper.
+  """
+
   def append_line(filename, results) do
     append(filename, results, :newline)
   end
