@@ -15,6 +15,6 @@ defmodule XsltParserTest do
     # IO.puts(is_record);
 
     tag = RecordHelper.xmlElement(doc_xslt, :name)
-    IO.inspect(tag)
+    # IO.inspect(tag)
   end
 end
