@@ -3,10 +3,16 @@ defmodule FileHelper do
   Documentation for FileHelper.
   """
 
+  @doc """
+  Appends the string `results` into the given file `filename` without adding a new line
+  """
   def append_line(filename, results) do
     append(filename, results, :newline)
   end
 
+  @doc """
+  Appends the string `results` into the given file `filename` and adds a new line
+  """
   def append(filename, result) do
     append(filename, result, nil)
   end

@@ -1,11 +1,19 @@
 defmodule XmlConstructor do
   @moduledoc """
-  Documentation for XmlConstructor.
+  This is the XmlConstructor module
   """
 
   require Record
   require RecordHelper
 
+  @doc """
+  Returns elixir list with the given structure: [:atom, map, list]
+  :atom represents the xml tag name
+  map represents the attributes
+  list represents the value, could be string or elements of the first structure
+
+  Expects element of type Record (tuple)
+  """
   def parse_record(element) do
     data = [nil, %{}, nil]
 
