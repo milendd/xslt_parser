@@ -1,5 +1,5 @@
 <bib>
-	<book year="1994">
+	<book year="1994" date="asdf">
 		<title>TCP/IP Illustrated</title>
 		<author>
 			<last>Stevens</last>
