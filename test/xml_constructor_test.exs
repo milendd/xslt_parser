@@ -28,10 +28,10 @@ defmodule XmlConstructorTest do
     {:ok, xml} = File.read("test/samples/bib.xml")
     doc_xml = xml |> XmlParser.parse_string()
 
-    parsedRecord = XmlConstructor.parse_record(doc_xml)
-    # IO.inspect(parsedRecord)
+    parsed_record = XmlConstructor.parse_record(doc_xml)
+    # IO.inspect(parsed_record)
 
-    result = parsedRecord |> XmlBuilder.generate() |> XmlBuilder.doc()
+    result = parsed_record |> XmlBuilder.generate() |> XmlBuilder.doc()
     FileHelper.append("../test.txt", result)
   end
 end

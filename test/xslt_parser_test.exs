@@ -16,4 +16,9 @@ defmodule XsltParserTest do
     xml_tag = RecordHelper.xmlElement(doc_xml, :name)
     assert xml_tag == String.to_atom("bib")
   end
+
+  test "can transform simple xslt and xml" do
+    result = XsltParser.transform("test/samples/bib.xml", "test/samples/bib2.xslt")
+    IO.inspect(result)
+  end
 end
