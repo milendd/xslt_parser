@@ -18,7 +18,7 @@ defmodule XsltParserTest do
   end
 
   test "can transform simple xslt and xml" do
-    result = XsltParser.transform("test/samples/bib.xml", "test/samples/bib2.xslt")
-    IO.inspect(result)
+    XsltParser.transform("test/samples/bib.xml", "test/samples/bib2.xslt")
+    # |> IO.inspect()
   end
 end

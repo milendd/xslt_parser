@@ -12,9 +12,19 @@ defmodule XsltParser do
     {:ok, xslt} = File.read(xslt_file)
     record_xslt = generate_record(xslt)
 
+    record_xml = transform_record(record_xml, record_xslt)
+    # IO.inspect(record_xml)
+
     result = record_xml |> XmlBuilder.generate() |> XmlBuilder.doc()
     :ok = validate(record_xml, record_xslt)
-    result
+    {:ok, result}
+  end
+
+  defp transform_record(record_xml, _record_xslt) do
+    # IO.inspect(record_xslt)
+    # xslt_elements = elem(record_xslt, 2)
+    # IO.inspect(xslt_elements)
+    record_xml
   end
 
   defp validate(_record_xml, _record_xslt) do
